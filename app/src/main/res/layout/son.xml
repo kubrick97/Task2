@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:baselineAligned="false">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/button2"
+        android:onClick="OnBtnClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/response"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.83"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/timestamp"
+        android:textAlignment="textStart"
+        android:layout_weight="0.16" />
+
+</LinearLayout>
